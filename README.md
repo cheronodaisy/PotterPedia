@@ -8,17 +8,11 @@ Spell Library: Access a spellbook containing various magical spells and charms u
 Interactive User Interface: Enjoy a user-friendly interface with intuitive navigation, making it easy to discover and explore the magical world of Harry Potter.
 
 # How to Use
-1. Homepage:
-   - Upon visiting the site, you'll be greeted with an overview of popular characters.
-2. Navigation:
-   - Use the top navigation bar to switch between categories: Characters, Houses, and Spells.
-3. Explore:
-   - Click on a house, character, or spell to access detailed information. Each entry provides a comprehensive overview, including images and descriptions.
-4. Search:
+Search:
    - Utilize the search bar to find specific characters, houses, or spells quickly.
- Technologies Used
-Nextjs: Frontend framework for building interactive user interfaces.
-Tailwind CSS: Styling and layout.
+# Technologies Used
+Vanilla js: Frontend framework for building interactive user interfaces.
+CSS: Styling and layout.
 Harry Potter Public API: Data source for character, house, and spell information.
 
 # Installation and Setup
@@ -26,12 +20,9 @@ Harry Potter Public API: Data source for character, house, and spell information
 2. Navigate to the Project Directory:
    cd PotterPedia
 3. Install Dependencies:
-   
-   npm install
   
 4. Start the Application:
-   
-   npm start
+ 
   
 5. Access the Application:
    - Open your web browser and go to `http://localhost:3000` to view PotterPedia.
