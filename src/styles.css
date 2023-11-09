@@ -1,56 +1,58 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.search-bar {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .card-list {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin: 10px;
-  width: 200px;
-  background-color: #ffffff;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .card:hover {
-  background-color: #f9f9f9;
+    background-color: #f9f9f9;
 }
 
 .card-details {
-  background-color: #ffffff;
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin-top: 20px;
-  min-height: 200px;
-}
-
-#search-form {
-  margin-top: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    min-height: 200px;
 }
 
 #search-input {
-  padding: 8px;
-  font-size: 14px;
-  width: 200px;
-  border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 14px;
+    width: 200px;
+    border: 1px solid #ccc;
 }
 
 label {
-  margin-bottom: 10px;
-  display: block;
-  font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
 }
