@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Character Details</h1>
+    <div id="character-details"></div>
+
+    <script>
+        const characterDetailsContainer = document.getElementById('character-details');
+        const params = new URLSearchParams(window.location.search);
+        const characterName = params.get('name');
+
+        fetch(`https://hp-api.onrender.com/characters?name=${encodeURIComponent(characterName)}`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.length > 0) {
+                    const character = data[0];
+                    characterDetailsContainer.innerHTML = `
+                        <h2>${character.name}</h2>
+                        <p>Role: ${character.role}</p>
+                        <p>House: ${character.house}</p>
+                        <p>Wand: ${character.wand}</p>
+                        <p>Patronus: ${character.patronus}</p>
+                        <p>Species: ${character.species}</p>
+                        <p>Date of Birth: ${character.dateOfBirth}</p>
+                        <img src="${character.image}" alt="${character.name}">
+                    `;
+                } else {
+                    characterDetailsContainer.innerHTML = '<p>Character not found.</p>';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                characterDetailsContainer.innerHTML = '<p>Failed to fetch character information. Please try again later.</p>';
+            });
+    </script>
+</body>
+
+</html>
