@@ -37,5 +37,9 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 # Acknowledgements
 Harry Potter Public API: Special thanks to the creators of the Harry Potter Public API for providing the magical data used in this project.
 
+# App Screenshots
+![image](https://github.com/cheronodaisy/PotterPedia/assets/85867696/ba07a7af-937b-493f-803c-60d550a7b3cc)
+
+
 Dive into the wizarding world with PotterPedia and uncover the secrets and stories behind your favorite characters, houses, and spells. Enjoy your magical journey! 🧙✨
 
