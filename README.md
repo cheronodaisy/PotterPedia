@@ -1,5 +1,9 @@
 # PotterPedia - Exploring the Wizarding World
-PotterPedia is a web application that allows users to explore the magical universe of Harry Potter. This application provides comprehensive information about characters, houses, spells, and other elements from the famous book series, making it a perfect resource for Potterheads and enthusiasts.
+PotterPedia is a web application that allows users to explore the magical universe of Harry Potter. This application provides comprehensive information about characters, houses, spells, and other elements from the famous book series, making it a perfect resource for Potterheads and enthusiasts. 
+To view the project, visit the landing page: https://potter-pedia-landing-page.vercel.app/
+and click the Explore Now button to visit the web app. 
+Read more about PotterPedia at this blog article: https://docs.google.com/document/d/1ldNRzGib5Lwq3wpEwbSDiCX7uMumxvDSOn_LOqfWoEY/edit?usp=sharing
+Author: Daisy Cherono
 
  # Features
 Character Database: Browse through an extensive collection of Harry Potter characters. Each entry includes details about their house, role, and background information.
